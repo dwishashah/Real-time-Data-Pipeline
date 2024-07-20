@@ -1,0 +1,20 @@
+
+{
+    "fileLocations": [
+        {
+            "URIs": [
+                "s3://bde-kafka-v1/csv/albums.csv",
+                "s3://bde-kafka-v1/csv/artists.csv",
+                "s3://bde-kafka-v1/csv/track.csv"
+            ]
+        }
+        
+    ],
+    "globalUploadSettings": {
+        "format": "CSV",
+        "delimiter": ",",
+        "textqualifier": "\"",
+        "containsHeader": "true"
+    }
+}
+                            
